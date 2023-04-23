@@ -356,7 +356,7 @@ export default defineComponent({
         return value.replaceAll('"', '');
       },
       params: {
-        appVersion: '1.0.10',
+        appVersion: '1.0.12',
       },
       platform: $q.platform.is,
       searchDataHtml: searchDataHtml,

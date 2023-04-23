@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.setram.app" version="1.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.setram.app" version="1.0.12" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Setram Bus &amp; tram</name>
     <description>Bus &amp; tram Le Mans Métropole</description>
-    <preference name="Scheme" value="http://app-setram.com:4000" />
+    <preference name="Scheme" value="http://31.33.145.219:4000" />
     <preference name="usesCleartextTraffic" value="true" />
     <author email="contact@app-setram.com" href="https://setram.fr">
        Setram Bus &amp; tram
@@ -12,14 +12,14 @@
     <preference name="AndroidExtraFilesystems" value="files,cache, sdcard, cache-external, files-external" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <access origin="http://app-setram.com:4000" />
-    <access origin="https://app-setram.com:4000" />
-    <access origin="http://*.app-setram.com:4000" />
+    <access origin="http://31.33.145.219:4000" />
+    <access origin="https://31.33.145.219:4000" />
+    <access origin="http://*.31.33.145.219:4000" />
     <access origin="content:///*" />
     <access origin="*" />
     <access allows-arbitrary-loads-for-media="true" allows-arbitrary-loads-in-web-content="true" allows-local-networking="true" origin="*" />
-    <allow-navigation href="http://app-setram.com:4000/*" />
-    <allow-navigation href="*://*.app-setram.com:4000/*" />
+    <allow-navigation href="http://31.33.145.219:4000/*" />
+    <allow-navigation href="*://*.31.33.145.219:4000/*" />
     <allow-navigation href="*" />
     <allow-navigation href="http://*/*" />
     <allow-navigation href="https://*/*" />

@@ -92,7 +92,7 @@ module.exports = configure(function (ctx) {
       open: true, // opens browser window automatically
       allowedHosts: [
         'https://www.setram.fr/',
-        'http://app-setram.com/',
+        'http://31.33.145.219:4000/',
       ],
       headers: {
         'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, DELETE, OPTIONS',
